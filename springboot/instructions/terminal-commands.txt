@@ -1,0 +1,6 @@
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.onlineinteract -D artifactId=springboot -DinteractiveMode=false
+
+mvn clean package
+
+java -jar target/springboot-1.0-SNAPSHOT.jar
+mvn spring-boot:run
